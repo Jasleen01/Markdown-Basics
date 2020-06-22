@@ -1,0 +1,238 @@
+<h1 id="a-closer-look---markdown">A CLOSER LOOK - Markdown</h1>
+<p><em>Author~Jasleen Kaur</em></p>
+<p>Before I knew about Markdown,I have come across files with .md as extensions.However,I never peeped into it to extract all to know about it.But now,as I have gained much knowledge about the language,I cannot resist appreciating its beauty!</p>
+<p>Being familiar with HTML,I can surely say that HTML users will find Markdown to be far more easier than it.Yes!it just does <strong>not</strong> use any kind of <strong>formatting tags</strong> at all unlike HTML!Not only this it is widely used and accessible too.It is a light-weight markup language used to format the text appearing on webpages just like HTML.It is used to add formatting elements to plain text documents.</p>
+<p>One feature that makes Markdown more likely to be accepted is that it is <strong>portable</strong>.Markdown files can be opened using any app or any device having any Operating System!</p>
+<p>Not only this if the current editor stops working then these files can be accessed using another text editing applications too..</p>
+<p>The basic process is that .md or.markdown files are first processed using a Markdown application which converts them into HTML files to render output on the screens!</p>
+<p>Any text editor and Markdown application like atom can be used for creating .md files.I personally use <strong>vim</strong> editor.And then I save the file and preview it online..Also you can use ReText.It is amazing as it provides you with live preview!Using Pandoc to convert markdown files into HTML also works and I use it as it can convert files into almost any possible format!Isn’t it amazing?</p>
+<p>My experience at learning Markdown was amazing..and the same I want it to be yours too..</p>
+<p>Let’s take a look at some basic concepts of Markdown:</p>
+<p><strong>1.HEADING</strong></p>
+<p>There are six heading levels. For using each heading level, put the corresponding number of # signs before the text to be formatted.</p>
+<p>For e.g</p>
+<h1 id="heading-level-1">heading level 1</h1>
+<p>This is done by —# heading level 1</p>
+<h2 id="heading-level-2">heading level 2</h2>
+<p>This is done by —## heading level 2</p>
+<h3 id="heading-level-3">heading level 3</h3>
+<p>This is done by —### heading level 3</p>
+<p>This goes upto level 6.Try it!</p>
+<p><strong>2.Paragraph</strong></p>
+<p>It is as easier to do as possible..where you don’t require any &lt;p &gt; and &lt;/p&gt;tags as in HTML. You just need to have a blank line.eg.</p>
+<p>Here is it!</p>
+<p>And this Yeah..</p>
+<p>Yes..it is as simple as that..</p>
+<p><strong>3.Line Breaks</strong></p>
+<p>To do this you need end a line with two or more spaces and then press return.e.g</p>
+<p>I am writing it and<br />
+now I am on the next line!</p>
+<p>Well,&lt;br&gt; can also be used.</p>
+<p><strong>4.BOLD</strong></p>
+<p>A word or a phrase can be made bold using ** at the starting as well as ending of that particular word or phrase. e.g</p>
+<p><strong>HELLO!</strong></p>
+<p>This is done by-**Hello!**</p>
+<p><strong>Italicize</strong></p>
+<p>A word or a phrase can be italicized using * at the starting as well as ending of that particular word or phrase. e.g</p>
+<p><em>HELLO!</em></p>
+<p>This is done by-*Hello!*</p>
+<p><strong>BOLD AND ITALICIZE</strong></p>
+<p>A word or a phrase can be made bold and italic using *** at the starting as well as ending of that particular word or phrase. e.g</p>
+<p><strong><em>HELLO!</em></strong></p>
+<p>This is done by-***Hello!***</p>
+<p><strong>BLOCKQUOTES</strong></p>
+<p>Text can be made to appear blockquoted by using &gt; (angle bracket) at the starting of the text.e.g</p>
+<p>&gt; Hi..what’s going on?</p>
+<p>The text looks like:</p>
+<blockquote>
+<p>Hi..what’s going on?</p>
+</blockquote>
+<p>You can also blockquote the text with multiple paragraphs e.g</p>
+<p>&gt;We went on a trip.<br />
+&gt;<br />
+&gt;It was awesome.</p>
+<p>The text looks like:</p>
+<blockquote>
+<p>We went on a trip.</p>
+<p>It was awesome.</p>
+</blockquote>
+<p>Nested BLockquote:</p>
+<p>&gt;We went on a trip.<br />
+&gt;<br />
+&gt;&gt;It was awesome.</p>
+<p>The text looks like:</p>
+<blockquote>
+<p>We went on a trip.</p>
+<blockquote>
+<p>It was awesome.</p>
+</blockquote>
+</blockquote>
+<p>You can also use other elements along with blockquote.e.g</p>
+<p>&gt;## FRUITS<br />
+&gt;<br />
+&gt;- Apple<br />
+&gt;- Orange<br />
+&gt;- Guava<br />
+&gt;<br />
+&gt; *Did you get it?*</p>
+<p>The text looks like:</p>
+<blockquote>
+<h2 id="fruits">FRUITS</h2>
+<ul>
+<li>Apple<br />
+</li>
+<li>Orange<br />
+</li>
+<li>Guava</li>
+</ul>
+<p><em>Did you get it?</em></p>
+</blockquote>
+<p><strong>5.LISTS</strong></p>
+<ul>
+<li>ORDERED LISTS</li>
+</ul>
+<p>These lists always start from 1. e.g</p>
+<p>\1. Item 1<br />
+\2. Item 2<br />
+\1. Item 3<br />
+\6. Item 4</p>
+<p>The list would appear like:</p>
+<ol type="1">
+<li>Item 1</li>
+<li>Item 2</li>
+<li>Item 3</li>
+<li>Item 4</li>
+</ol>
+<p><strong>Another way out there</strong></p>
+<p>\1. Item 1<br />
+\1. sub-item 1<br />
+\2. sub-item 2<br />
+\2. Item 2<br />
+\1. Item 3<br />
+\6. Item 4</p>
+<p>The list will appear like:</p>
+<ol type="1">
+<li>Item 1
+<ol type="1">
+<li>sub-item 1<br />
+</li>
+<li>sub-item 2<br />
+</li>
+</ol></li>
+<li>Item 2<br />
+</li>
+<li>Item 3<br />
+</li>
+<li>Item 4</li>
+</ol>
+<p>Use just need to indent some spaces to begin your sub-list as shown above..</p>
+<ul>
+<li>UNORDERED LISTS</li>
+</ul>
+<p>Dashes(-),asterisks(*) or plus signs(+) are used to make unordered lists.e.g</p>
+<p>- item 1<br />
+- item 2<br />
++ item 3<br />
+* item 4</p>
+<p>The output is:</p>
+<ul>
+<li>item 1<br />
+</li>
+<li>item 2<br />
+</li>
+<li>item 3<br />
+</li>
+<li>item 4</li>
+</ul>
+<p><strong>Another way out there</strong></p>
+<p>- item 1<br />
+- sub-item1<br />
+- sub-item 2 - item 2<br />
++ item 3<br />
+* item 4</p>
+<p>It would appear like:</p>
+<ul>
+<li>item 1
+<ul>
+<li>sub-item1<br />
+</li>
+<li>sub-item 2</li>
+</ul></li>
+<li>item 2<br />
+</li>
+<li>item 3<br />
+</li>
+<li>item 4</li>
+</ul>
+<p><strong>Also other elements can be used along with lists.</strong></p>
+<p><strong>6.CODE</strong></p>
+<p>If you want to denote a word or a phrase as code,enclose it in backticks(`)e.g</p>
+<p>At command prompt write `vim Template.md`</p>
+<p>Output will be:</p>
+<p>At command prompt write <code>vim Template.md</code></p>
+<p><strong>7.HORIZONTAL RULE</strong></p>
+<p>HR can be added using three or more (*)or (-) or (_).e.g</p>
+<p>***</p>
+<p>This is what appears:</p>
+<hr />
+<p>It is a good practice to leave a blank line after using ***</p>
+<p><strong>8.LINKS</strong></p>
+<p>You can insert hyperlinks to make your page interactive.<br />
+The syntax is:</p>
+<p>[Link Text Goes Here](URL)<br />
+This is how it looks!:<br />
+<a href="URL">Link Text Goes Here</a></p>
+<p>Also you can add title to your link which can be seen when user hovers the pointer over it.To do this:<br />
+[Link Text Goes Here](URL“Title”)<br />
+This looks like:<br />
+<a href="URL%22Title%22">Link Text Goes Here</a><br />
+Hover over the link to see the magic!</p>
+<p><strong>URLs AND e-mail ADDRESSES</strong></p>
+<p>If you want to write URLs and e-mail addresses with another method, well there is one!</p>
+<p>&lt;Write URl or e-mail within these angle brackets&gt; e.g<br />
+&lt;john@gmail.com&gt;</p>
+<p>It looks like:<br />
+<a href="mailto:john@gmail.com" class="email">john@gmail.com</a></p>
+<p><strong>9.IMAGES</strong></p>
+<p>You can add attractive and catchy images too.<br />
+The syntax is:<br />
+[Alt text](URL to the image “Title”)<br />
+e.g</p>
+<p>[It is a flower!](/home/jasleen/Downloads/marguerite-729510__340.webp “Flower”)</p>
+<p>It looks like:<br />
+<embed src="/home/jasleen/Downloads/marguerite-729510__340.webp" title="Flower" /></p>
+<p><strong>linked images</strong></p>
+<p>Images can also be used as a link.</p>
+<p>The syntax is:<br />
+[![Alt text](URL to the image “Title”)](url) e.g</p>
+<p>[![It is a flower!](/home/jasleen/Downloads/marguerite-729510__340.webp “Flower”)](https://github.com)</p>
+<p><a href="https://github.com"><embed src="/home/jasleen/Downloads/marguerite-729510__340.webp" title="Flower" /></a></p>
+<p><strong>Task lists</strong></p><br>
+You can create task lists containing checkboxes using - and [] as shown <br>
+- [ ] Red<br>
+- [ ] Blue<br>
+- [ ] Purple<br>
+It appears like:<br>
+<input type="checkbox" name="BOX"> Red</input><br>
+<input type="checkbox" name="pen"> Blue</input><br>
+<input type="checkbox" name="pencil"> Purple</input><br>
+You can also check the box using [x] as shown<br>
+- [x] Red<br>
+- [ ] Blue<br>
+- [ ] Purple<br>
+It appears like:<br>
+<input type="checkbox" name="BOX" checked> Red </input><br>
+<input type="checkbox" name="pen"> Blue</input><br>
+<input type="checkbox" name="pencil"> Purple</input><br>
+Also tasklists having radio buttons can be created using - and () as shown:<br>
+- ( ) Red<br>
+- ( ) Blue <br>
+- ( ) Purple <br>
+It appears like:<br>
+<input type="radio" name="BOX" value="Red"> Red </input><br>
+<input type="radio" name="BOX" value="blue"> Blue</input> </br>
+<input type="radio" name="BOX" value="purple">Purple</input><br>
+<p><strong>There are many other things like tables,using emojis(extended syntax) and much more!</strong><br />
+The basic syntax has already been covered..</p>
+<p>I had a wonderful experience learning markdown..Hope you enjoyed it too!</p>
+Thanks!
