@@ -134,82 +134,88 @@ The text looks like:
 >  
 > *Did you get it?*
 
-**LISTS**
+**5.LISTS**
 
-  - ORDERED LISTS
-  
-   These lists always start from 1.  e.g 
+-   ORDERED LISTS
 
-  1. Item 1  
-  2. Item 2  
-  1. Item 3   
-  6. Item 4
+These lists always start from 1. e.g
 
- The list would appear like:
-
-  1. Item 1
-  2. Item 2
-  1. Item 3
-  6. Item 4
-
-**Another way out there**
-  1. Item 1    
-      1.sub-item 1
-      2.sub-item 2    
-  2.Item 2    
-  3.Item 3
-The list will appear like:
-
-1. Item 1  
-      1. sub-item 1  
-      2. sub-item 2   
-2. Item 2    
-1. Item 3    
+1\. Item 1
+2. Item 2
+1. Item 3
 6. Item 4
 
-Use just need to indent some spaces to begin your sub-list as shown above..
+The list would appear like:
 
-- UNORDERED LISTS
+1.  Item 1
+2.  Item 2
+3.  Item 3
+4.  Item 4
 
-Dashes(-),asterisks(*) or plus signs(+) are used to make unordered lists.e.g
+**Another way out there**
 
-\- item 1  
-\- item 2   
-\+ item 3   
+1.  Item 1
+    1.  sub-item 1
+    2.  sub-item 2
+2.  Item 2
+3.  Item 3
+4.  Item 4
+
+The list will appear like:
+
+1.  Item 1
+    1.  sub-item 1
+    2.  sub-item 2
+2.  Item 2
+3.  Item 3
+4.  Item 4
+
+Use just need to indent some spaces to begin your sub-list as shown
+above..
+
+-   UNORDERED LISTS
+
+Dashes(-),asterisks(\*) or plus signs(+) are used to make unordered
+lists.e.g
+
+\- item 1
+- item 2
++ item 3
 \* item 4
 
 The output is:
 
-- item 1  
-- item 2   
-+ item 3   
-* item 4
+-   item 1
+-   item 2
+-   item 3
+-   item 4
 
 **Another way out there**
 
-\- item 1  
-       \- sub-item1  
-       \- sub-item 2
-\- item 2   
-\+ item 3   
+\- item 1
+   - sub-item1
+   - sub-item 2
+- item 2
++ item 3
 \* item 4
 
 It would appear like:
 
-- item 1  
-     - sub-item1  
-     - sub-item 2
-- item 2   
-+ item 3   
-* item 4
+-   item 1
+    -   sub-item1
+    -   sub-item 2
+-   item 2
+-   item 3
+-   item 4
 
 **Also other elements can be used along with lists.**
 
 **6.CODE**
 
-If you want to denote a word or a phrase as code,enclose it in backticks(`)e.g
- 
-At command prompt write \`vim Template.md` 
+If you want to denote a word or a phrase as code,enclose it in
+backticks(\`)e.g
+
+At command prompt write \`vim Template.md\`
 
 Output will be:
 
@@ -217,71 +223,101 @@ At command prompt write `vim Template.md`
 
 **7.HORIZONTAL RULE**
 
-HR can be added using three or more (*)or (-) or (_).e.g
+HR can be added using three or more (\*)or (-) or (\_).e.g
 
-\***
+\*\*\*
 
 This is what appears:
 
-***
+------------------------------------------------------------------------
 
-It is a good practice to leave a blank line after using \***
+It is a good practice to leave a blank line after using \*\*\*
 
 **8.LINKS**
 
-You can insert hyperlinks to make your page interactive.   
+You can insert hyperlinks to make your page interactive.\
 The syntax is:
 
-\[Link Text Goes Here](URL)  
-This is how it looks!:  
-[Link Text Goes Here](URL)    
+\[Link Text Goes Here\](URL)\
+This is how it looks!:\
+[Link Text Goes Here](URL)
 
-Also you can add title to your link which can be seen when user hovers the pointer over it.To do this:  
-\[Link Text Goes Here](URL"Title")  
-This looks like:  
-[Link Text Goes Here](URL"Title")   
+Also you can add title to your link which can be seen when user hovers
+the pointer over it.To do this:\
+\[Link Text Goes Here\](URL"Title")\
+This looks like:\
+[Link Text Goes Here](URL%22Title%22)\
 Hover over the link to see the magic!
 
 **URLs AND e-mail ADDRESSES**
 
-If you want to write URLs and e-mail addresses with another method,
-well there is one!
+If you want to write URLs and e-mail addresses with another method, well
+there is one!
 
-<Write URl or e-mail within these angle brackets\> e.g  
-<john@gmail.com\>  
+\<Write URl or e-mail within these angle brackets\> e.g\
+\<john\@gmail.com\>
 
-It looks like:  
-<john@gmail.com>  
+It looks like:\
+<john@gmail.com>
 
 **9.IMAGES**
 
-You can attractive and catchy images too.  
-The syntax is:  
-![Alt text](URL to the image "Title"\)  
+You can add attractive and catchy images too.\
+The syntax is:\
+\[Alt text\](URL to the image "Title")\
 e.g
 
-![It is a flower!](../Undiscovered-Things/download.jpg “Flower”\)
+\[It is a flower!\](../Undiscovered-Things/download.jpg "Flower")
 
 It looks like:  
-![It is a flower!](../Undiscovered-Things/download.jpg “Flower”)
+[It is a flower!](../Undiscovered-Things/download.jpg "Flower")
 
-**images**
+**linked images**
 
 Images can also be used as a link.
 
-The syntax is:  
-[\![Alt text]\(URL to the image "Title")\](url)
-e.g
+The syntax is:\
+\[!\[Alt text\](URL to the image "Title")](url) e.g
 
-[\![It is a flower!]\(../Undiscovered-Things/download.jpg “Flower”)\](https://github.com)
+\[!\[It is a flower!\](../Undiscovered-Things/download.jpg
+"Flower")\](https://github.com)
+It looks like-
 
-[![It is a flower!](../Undiscovered-Things/download.jpg “Flower”)](https://github.com)
+[!\[It is a flower!](../Undiscovered-Things/download.jpg
+"Flower")](https://github.com)
 
-**TASK LISTS**
+**Task lists**
 
-To create task lists with checkboxes use - and [ ] as shown e.g
+\
+You can create task lists containing checkboxes using - and \[ \] as
+shown\
+- \[ \] Red
+- \[ \] Blue
+- \[ \] Purple
+It appears like:\
+- [ ] Red
+- [ ] Blue
+- [ ] Purple
+You can also check the box using \[x\] as shown\
+- \[x\] Red\
+- \[ \] Blue\
+- \[ \] Purple\
+It appears like:\
+- [x] Red
+- [ ] Blue
+- [ ] Purple
+Also tasklists having radio buttons can be created using - and () as
+shown:\
+- \( \) Red
+- \( \) Blue
+- \( \) Purple
+It appears like:\
+- ( ) Red
+- ( ) Blue
+- ( ) Purple
 
-\- [x] apple  
-\- [ ] mango   
-\- [ ] guava
+**There are many other things like tables,using emojis(extended syntax)
+and much more!**\
+The basic syntax has already been covered..
 
+I had a wonderful experience learning markdown..Hope you enjoyed it too!
