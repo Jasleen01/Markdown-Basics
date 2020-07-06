@@ -288,35 +288,25 @@ It looks like-
 
 [![It is a flower!](download.jpg "Flower")](https://github.com)
 
-**Task lists**
+**Task lists**   
 
-\
 You can create task lists containing checkboxes using - and \[ \] as
 shown\
 - \[ \] Red
 - \[ \] Blue
 - \[ \] Purple
-It appears like:\
+It appears like:
 - [ ] Red
 - [ ] Blue
 - [ ] Purple
-You can also check the box using \[x\] as shown\
-- \[x\] Red\
-- \[ \] Blue\
-- \[ \] Purple\
-It appears like:\
+You can also check the box using \[x\] as shown
+\- [x] Red   
+- [ ] Blue   
+- [ ] Purple  
+It appears like:
 - [x] Red
 - [ ] Blue
 - [ ] Purple
-Also tasklists having radio buttons can be created using - and () as
-shown:\
-- \( \) Red
-- \( \) Blue
-- \( \) Purple
-It appears like:\
-- ( ) Red
-- ( ) Blue
-- ( ) Purple
 
 **There are many other things like tables,using emojis(extended syntax)
 and much more!**\
