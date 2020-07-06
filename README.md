@@ -1,5 +1,5 @@
 # Markdown-Undiscovered-Things
-A CLOSER LOOK - Markdown
+AA CLOSER LOOK - Markdown
 ========================
 
 *Author\~Jasleen Kaur*
@@ -172,10 +172,10 @@ The text looks like:
 
 These lists always start from 1. e.g
 
-\\1. Item 1\
-\\2. Item 2\
-\\1. Item 3\
-\\6. Item 4
+1\. Item 1\
+2. Item 2\
+1. Item 3\
+6. Item 4
 
 The list would appear like:
 
@@ -186,12 +186,12 @@ The list would appear like:
 
 **Another way out there**
 
-\\1. Item 1\
-\\1. sub-item 1\
-\\2. sub-item 2\
-\\2. Item 2\
-\\1. Item 3\
-\\6. Item 4
+1.  Item 1
+    1.  sub-item 1\
+    2.  sub-item 2\
+2.  Item 2\
+3.  Item 3\
+4.  Item 4
 
 The list will appear like:
 
@@ -225,8 +225,9 @@ The output is:
 **Another way out there**
 
 \- item 1\
-- sub-item1\
-- sub-item 2 - item 2\
+   - sub-item1\
+   - sub-item 2\
+- item 2\
 + item 3\
 \* item 4
 
@@ -298,9 +299,7 @@ The syntax is:\
 \[Alt text\](URL to the image "Title")\
 e.g
 
-\[It is a
-flower!\](/home/jasleen/Downloads/marguerite-729510\_\_340.webp
-"Flower")
+\[It is a flower!\](../Undiscovered-Things/download.jpg "Flower")
 
 It looks like:\
 
@@ -311,8 +310,7 @@ Images can also be used as a link.
 The syntax is:\
 \[!\[Alt text\](URL to the image "Title")\](url) e.g
 
-\[!\[It is a
-flower!\](/home/jasleen/Downloads/marguerite-729510\_\_340.webp
+\[!\[It is a flower!\](../Undiscovered-Things/download.jpg
 "Flower")\](https://github.com)
 
 [](https://github.com)
