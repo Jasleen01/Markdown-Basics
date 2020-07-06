@@ -183,8 +183,8 @@ Dashes(-),asterisks(\*) or plus signs(+) are used to make unordered
 lists.e.g
 
 \- item 1    
-- item 2    
-+ item 3     
+\- item 2    
+\+ item 3     
 \* item 4     
 
 The output is:    
@@ -197,17 +197,17 @@ The output is:
 **Another way out there**
 
 \- item 1    
-   - sub-item1   
-   - sub-item 2    
-- item 2    
-+ item 3    
+   \- sub-item1   
+   \- sub-item 2    
+\- item 2    
+\+ item 3    
 \* item 4    
 
 It would appear like:
 
 -   item 1    
-    -   sub-item1    
-    -   sub-item 2      
+    - sub-item1    
+    - sub-item 2      
 -   item 2     
 -   item 3    
 -   item 4    
