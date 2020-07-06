@@ -153,14 +153,11 @@ The text looks like:
   6. Item 4
 
 **Another way out there**
-
-  1. Item 1  
-      1. sub-item 1   
-      2. sub-item 2   
-  2. Item 2    
-  1. Item 3    
-  6. Item 4
-
+  1. Item 1    
+      1.sub-item 1
+      2.sub-item 2    
+  2.Item 2    
+  3.Item 3
 The list will appear like:
 
 1. Item 1  
