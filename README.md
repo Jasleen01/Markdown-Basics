@@ -268,13 +268,13 @@ It looks like:\
 
 You can add attractive and catchy images too.\
 The syntax is:\
-\[Alt text\](URL to the image "Title")\
+\![Alt text\](URL to the image "Title")\
 e.g
 
-\[It is a flower!\](../Undiscovered-Things/download.jpg "Flower")
+\![It is a flower!\](../Undiscovered-Things/download.jpg "Flower")
 
 It looks like:  
-[It is a flower!](download.jpg "Flower")
+![It is a flower!](download.jpg "Flower")
 
 **linked images**
 
@@ -286,7 +286,7 @@ The syntax is:\
 \[!\[It is a flower!\](../Undiscovered-Things/download.jpg "Flower")\](https://github.com)
 It looks like-  
 
-[![It is a flower!](../Undiscovered-Things/download.jpg "Flower")](https://github.com)
+[![It is a flower!](download.jpg "Flower")](https://github.com)
 
 **Task lists**
 
