@@ -1,7 +1,7 @@
 # Markdown-Undiscovered-Things
 # A CLOSER LOOK - Markdown 
 
-##*Author~Jasleen Kaur*
+*Author~Jasleen Kaur*
 
 Before I knew about Markdown,I have come across files with .md as extensions.However,I never peeped into it to extract all to know about it.But now,as I have gained much knowledge about the language,I cannot resist appreciating its beauty!
 
