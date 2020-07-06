@@ -186,20 +186,20 @@ The list would appear like:
 
 **Another way out there**
 
-1.  Item 1
-    1.  sub-item 1\
-    2.  sub-item 2\
-2.  Item 2\
-3.  Item 3\
-4.  Item 4
+\1.  Item 1
+    \1.  sub-item 1
+    \2.  sub-item 2
+\2.  Item 2
+\3.  Item 3
+\4.  Item 4
 
 The list will appear like:
 
 1.  Item 1
-    1.  sub-item 1\
-    2.  sub-item 2\
-2.  Item 2\
-3.  Item 3\
+    1.  sub-item 1
+    2.  sub-item 2
+2.  Item 2
+3.  Item 3
 4.  Item 4
 
 Use just need to indent some spaces to begin your sub-list as shown
@@ -210,34 +210,34 @@ above..
 Dashes(-),asterisks(\*) or plus signs(+) are used to make unordered
 lists.e.g
 
-\- item 1\
-- item 2\
-+ item 3\
+\- item 1
+\- item 2
+\+ item 3
 \* item 4
 
 The output is:
 
--   item 1\
--   item 2\
--   item 3\
--   item 4
+-  item 1
+-  item 2
++  item 3
+*  item 4
 
 **Another way out there**
 
-\- item 1\
-   - sub-item1\
-   - sub-item 2\
-- item 2\
-+ item 3\
+\- item 1
+   \- sub-item1
+   \- sub-item 2
+\- item 2\
+\+ item 3
 \* item 4
 
 It would appear like:
 
 -   item 1
-    -   sub-item1\
+    -   sub-item1
     -   sub-item 2
--   item 2\
--   item 3\
+-   item 2
+-   item 3
 -   item 4
 
 **Also other elements can be used along with lists.**
@@ -320,29 +320,30 @@ The syntax is:\
 \
 You can create task lists containing checkboxes using - and \[\] as
 shown\
-- \[ \] Red\
-- \[ \] Blue\
-- \[ \] Purple\
+- \[ \] Red
+- \[ \] Blue
+- \[ \] Purple
 It appears like:\
-Red\
-Blue\
-Purple\
+- [ ] Red
+- [ ] Blue
+- [ ] Purple
 You can also check the box using \[x\] as shown\
 - \[x\] Red\
 - \[ \] Blue\
 - \[ \] Purple\
 It appears like:\
-Red\
-Blue\
-Purple\
+- [x] Red
+- [ ] Blue
+- [ ] Purple
 Also tasklists having radio buttons can be created using - and () as
 shown:\
-- ( ) Red\
-- ( ) Blue\
-- ( ) Purple\
-It appears like:\
-Red\
-Blue Purple\
+\- ( \) Red
+\- ( \) Blue
+\- ( \) Purple
+It appears like:
+- ( ) Red
+- ( ) Blue
+- ( ) Purple
 
 **There are many other things like tables,using emojis(extended syntax)
 and much more!**\
