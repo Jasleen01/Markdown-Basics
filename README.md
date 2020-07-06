@@ -1,5 +1,5 @@
 # Markdown-Undiscovered-Things
-AA CLOSER LOOK - Markdown
+A CLOSER LOOK - Markdown
 ========================
 
 *Author\~Jasleen Kaur*
