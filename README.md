@@ -140,10 +140,10 @@ The text looks like:
   
    These lists always start from 1.  e.g 
 
-  \1. Item 1  
-  \2. Item 2  
-  \1. Item 3   
-  \6. Item 4
+  1. Item 1  
+  2. Item 2  
+  1. Item 3   
+  6. Item 4
 
  The list would appear like:
 
@@ -154,12 +154,12 @@ The text looks like:
 
 **Another way out there**
 
-  \1. Item 1  
-      \1. sub-item 1  
-      \2. sub-item 2   
-  \2. Item 2    
-  \1. Item 3    
-  \6. Item 4
+  1. Item 1  
+      1. sub-item 1   
+      2. sub-item 2   
+  2. Item 2    
+  1. Item 3    
+  6. Item 4
 
 The list will appear like:
 
@@ -268,7 +268,7 @@ e.g
 It looks like:  
 ![It is a flower!](../Undiscovered-Things/download.jpg “Flower”)
 
-**linked images**
+**images**
 
 Images can also be used as a link.
 
