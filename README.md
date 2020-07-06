@@ -263,10 +263,10 @@ The syntax is:
 ![Alt text](URL to the image "Title"\)  
 e.g
 
-![It is a flower!](/home/jasleen/Downloads/marguerite-729510__340.webp "Flower"\)
+![It is a flower!](../Undiscovered-Things/download.jpg “Flower”\)
 
 It looks like:  
-![It is a flower!](/home/jasleen/Downloads/marguerite-729510__340.webp "Flower")
+![It is a flower!](../Undiscovered-Things/download.jpg “Flower”)
 
 **linked images**
 
@@ -276,15 +276,15 @@ The syntax is:
 [\![Alt text]\(URL to the image "Title")\](url)
 e.g
 
-[\![It is a flower!]\(/home/jasleen/Downloads/marguerite-729510__340.webp "Flower")\](https://github.com)
+[\![It is a flower!]\(../Undiscovered-Things/download.jpg “Flower”)\](https://github.com)
 
-[![It is a flower!](/home/jasleen/Downloads/marguerite-729510__340.webp "Flower")](https://github.com)
+[![It is a flower!](../Undiscovered-Things/download.jpg “Flower”)](https://github.com)
 
 **TASK LISTS**
 
 To create task lists with checkboxes use - and [ ] as shown e.g
 
-- [x] apple  
-- [ ] mango   
-- [ ] guava
+\- [x] apple  
+\- [ ] mango   
+\- [ ] guava
 
