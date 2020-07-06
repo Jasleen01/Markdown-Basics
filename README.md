@@ -57,14 +57,16 @@ now I am on the next line!
 
 Well,<br\> can also be used.
  
-**4.BOLD**
+**4.BOLD**  
+
 A word or a phrase can be made bold using \** at the starting as well as ending of that particular word or phrase.
 e.g
 
 **HELLO!**
 
 This is done by-\*\*Hello!**
-**Italicize**
+**Italicize**   
+
 A word or a phrase can be italicized using \* at the starting as well as ending of that particular word or phrase.
 e.g
 
@@ -72,7 +74,8 @@ e.g
 
 This is done by-\*Hello!*
 
-**BOLD AND ITALICIZE**
+**BOLD AND ITALICIZE**      
+
 A word or a phrase can be made bold and italic using \*** at the starting as well as ending of that particular word or phrase.
 e.g
 
@@ -80,7 +83,8 @@ e.g
 
 This is done by-\*\*\*Hello!***
 
-**BLOCKQUOTES**
+**BLOCKQUOTES**    
+
 Text can be made to appear blockquoted by using \> (angle bracket)
 at the starting of the text.e.g
 
@@ -140,35 +144,35 @@ The text looks like:
 
 These lists always start from 1. e.g
 
-1\. Item 1
-2. Item 2
-1. Item 3
-6. Item 4
+1. Item 1   
+2. Item 2   
+1. Item 3   
+6. Item 4   
 
 The list would appear like:
 
-1.  Item 1
-2.  Item 2
-3.  Item 3
-4.  Item 4
+1.  Item 1   
+2.  Item 2   
+3.  Item 3   
+4.  Item 4   
 
 **Another way out there**
 
-1.  Item 1
-    1.  sub-item 1
-    2.  sub-item 2
-2.  Item 2
-3.  Item 3
-4.  Item 4
+1.  Item 1    
+    1.sub-item 1   
+    2.sub-item 2   
+2.  Item 2  
+3.  Item 3   
+4.  Item 4  
 
 The list will appear like:
 
-1.  Item 1
-    1.  sub-item 1
-    2.  sub-item 2
-2.  Item 2
-3.  Item 3
-4.  Item 4
+1.  Item 1   
+    1.sub-item 1   
+    2.sub-item 2    
+2.  Item 2   
+3.  Item 3    
+4.  Item 4      
 
 Use just need to indent some spaces to begin your sub-list as shown
 above..
@@ -178,35 +182,35 @@ above..
 Dashes(-),asterisks(\*) or plus signs(+) are used to make unordered
 lists.e.g
 
-\- item 1
-- item 2
-+ item 3
-\* item 4
+\- item 1    
+- item 2    
++ item 3     
+\* item 4     
 
-The output is:
+The output is:    
 
--   item 1
--   item 2
--   item 3
--   item 4
+-   item 1    
+-   item 2    
+-   item 3    
+-   item 4    
 
 **Another way out there**
 
-\- item 1
-   - sub-item1
-   - sub-item 2
-- item 2
-+ item 3
-\* item 4
+\- item 1    
+   - sub-item1   
+   - sub-item 2    
+- item 2    
++ item 3    
+\* item 4    
 
 It would appear like:
 
--   item 1
-    -   sub-item1
-    -   sub-item 2
--   item 2
--   item 3
--   item 4
+-   item 1    
+    -   sub-item1    
+    -   sub-item 2      
+-   item 2     
+-   item 3    
+-   item 4    
 
 **Also other elements can be used along with lists.**
 
@@ -270,7 +274,7 @@ e.g
 \[It is a flower!\](../Undiscovered-Things/download.jpg "Flower")
 
 It looks like:  
-[It is a flower!](../Undiscovered-Things/download.jpg "Flower")
+[It is a flower!](download.jpg "Flower")
 
 **linked images**
 
@@ -279,12 +283,10 @@ Images can also be used as a link.
 The syntax is:\
 \[!\[Alt text\](URL to the image "Title")](url) e.g
 
-\[!\[It is a flower!\](../Undiscovered-Things/download.jpg
-"Flower")\](https://github.com)
-It looks like-
+\[!\[It is a flower!\](../Undiscovered-Things/download.jpg "Flower")\](https://github.com)
+It looks like-  
 
-[!\[It is a flower!](../Undiscovered-Things/download.jpg
-"Flower")](https://github.com)
+[![It is a flower!](../Undiscovered-Things/download.jpg "Flower")](https://github.com)
 
 **Task lists**
 
