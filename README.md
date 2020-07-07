@@ -259,10 +259,10 @@ If you want to write URLs and e-mail addresses with another method, well
 there is one!
 
 \<Write URl or e-mail within these angle brackets\> e.g\
-\<john\@gmail.com\>
+\<ram\@gmail.com\>
 
 It looks like:\
-<john@gmail.com>
+<ram@gmail.com>
 
 **9.IMAGES**
 
