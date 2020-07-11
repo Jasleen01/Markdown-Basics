@@ -36,9 +36,7 @@ This is done by ---\### heading level 3
 This is done by ---\#### heading level 4
 ##### heading level 5
 This is done by ---\##### heading level 5
-###### heading level 6
-This is done by ---\###### heading level6
-
+Try sixth one!
 **2.Paragraph**
 It is as easier to do as possible..where you don't require any <p \> and </p\>tags as in HTML.
 You just need to have a blank line.eg.
@@ -298,11 +296,13 @@ shown
 It appears like:
 - [ ] Red
 - [ ] Blue
-- [ ] Purple
+- [ ] Purple    
+
 You can also check the box using \[x\] as shown
 \- \[x \] Red   
 \- \[\] Blue   
-\- \[\] Purple  
+\- \[\] Purple    
+
 It appears like:
 - [x] Red
 - [ ] Blue
