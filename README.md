@@ -289,19 +289,19 @@ It looks like-
 **Task lists**   
 
 You can create task lists containing checkboxes using - and \[ \] as
-shown
-\- \[\] Red
+shown   
+\- \[\] Red   
 \- \[\] Blue
-\- \[\] Purple
+\- \[\] Purple    
 It appears like:
 - [ ] Red
 - [ ] Blue
 - [ ] Purple    
 
-You can also check the box using \[x\] as shown
-\- \[x \] Red   
-\- \[\] Blue   
-\- \[\] Purple    
+You can also check the box using \[x\] as shown   
+\- \[x \] Red      
+\- \[\] Blue      
+\- \[\] Purple      
 
 It appears like:
 - [x] Red
